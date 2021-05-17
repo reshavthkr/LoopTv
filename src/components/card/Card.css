@@ -1,0 +1,50 @@
+.cc{
+    margin-left: 5rem;
+    margin-bottom: 6rem;
+    display: grid;
+    grid-template-columns: repeat(3, 0.5fr);
+    gap: 7px;
+    
+}
+.card{
+    background-color: black;
+    padding: 6px;
+    width: '16rem';
+    text-align: left;
+    margin-top: 1rem;
+    box-shadow: 0.5px 0.5px 0.8px 0.8px #D72323;
+    
+}
+.card-title{
+    color: #D72323;
+    font-size: 1.2rem;
+}
+@media only screen 
+and (min-device-width:320px)
+and (max-device-width:480px)
+and (-webkit-min-device-pixel-ratio: 2){
+    .cc{
+        margin-left: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        /* grid-template-columns: repeat(3, 1fr);
+        gap: 10px; */
+        
+    }
+}
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1){
+    .cc{
+        margin-left: 3rem;
+        margin-bottom: 2rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        
+    }
+}
