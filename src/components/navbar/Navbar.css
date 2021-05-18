@@ -14,7 +14,7 @@
     margin-left: 8rem;
     color: #D72323;
     font-family: 'Lobster', cursive;
-    font-size: 2rem;
+    text-decoration: none;
 }
 @media only screen 
   and (min-device-width: 320px) 

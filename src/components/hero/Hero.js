@@ -1,5 +1,4 @@
 import React from 'react'
-import heroo from './heroo.svg'
 import './Hero.css'
 
 function Hero() {

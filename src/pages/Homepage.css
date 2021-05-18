@@ -1,0 +1,26 @@
+.carddiv{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+@media only screen 
+and (min-device-width:320px)
+and (max-device-width:480px)
+and (-webkit-min-device-pixel-ratio: 2){
+    .carddiv{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1){
+    .carddiv{
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        
+    }
+}

@@ -1,10 +1,15 @@
 import React from 'react'
 import './Navbar.css'
+import {Link} from 'react-router-dom'
 
 function Navbar() {
     return (
         <div className="navigation" >
-            <p className='logotext'>Loop Tv</p>
+            <h3 >
+                <Link to = '/' className='logotext'>
+                Loop Tv
+                </Link>
+            </h3>
         </div>
     )
 }

@@ -1,20 +1,23 @@
 import React from 'react'
 // import 'bootstrap/dist/css/bootstrap.css';
 import './Card.css'
+import {Link } from 'react-router-dom'
 
-function Card() {
+function Card({image, name, id, summary }) {
     return (
-        <div className='cc'>
-            <div class="card" style= {{width: '18rem'}}>
-                <img class="card-img-top" src="..." alt="Card image cap"/>
+        // <div>
+        // <div className='cc'>
+            <Link to={`/details/${id}`} class="card" style= {{width: '15.1rem'}}>
+                <img class="card-img-top" src={image} alt={name}/>
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <h6 class="card-title">{name}</h6>
+                    <p class="card-text">{summary}</p>
+                    
                 </div>
-            </div>
+            </Link>
             
-        </div>
+        // </div>
+        // </div>
     )
 }
 

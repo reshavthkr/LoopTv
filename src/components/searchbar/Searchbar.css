@@ -2,6 +2,11 @@
     display: flex;
     justify-content: center;
 }
+.search{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .c{
     margin: 1rem;
 }
@@ -47,6 +52,11 @@ button{
     border-radius: 6px;
     height: 2.5rem;
     width: 20rem;
+    outline-width: 0ch;
+}
+.searchbar:focus{
+  border: 1px solid #D72323;
+  box-shadow: 0 0 1px 1px #D72323;
 }
 @media only screen 
   and (min-device-width: 320px) 

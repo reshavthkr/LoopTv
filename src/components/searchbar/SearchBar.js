@@ -1,7 +1,10 @@
 import React from 'react'
 import './Searchbar.css'
 
-function SearchBar() {
+
+function SearchBar(props) {
+    
+
     return (
         <div>
             <div className='radiobtns'>
@@ -19,8 +22,8 @@ function SearchBar() {
                     </label>
             </div>
             <div className='search'>
-                <input className='searchbar' type='search' placeholder='Type query'/>
-                <button>Search</button>
+                <input className='searchbar' type='search' placeholder='Type query' onChange={props.onSearchChange}/>
+                <button onClick={props.onSearch}>Search</button>
             </div>
         </div>
     )
