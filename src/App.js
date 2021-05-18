@@ -20,8 +20,8 @@ class App extends Component {
       <BrowserRouter>
         <Navbar/>
         <Switch>
-          <Route exact path ='/' component={Homepage}/>
-          <Route path = '/details/:id' component={Details}/>
+          <Route exact path ='/LoopTv/' component={Homepage}/>
+          <Route path = 'LoopTv/details/:id' component={Details}/>
         </Switch>
         <Footer/>
       </BrowserRouter>
