@@ -1,4 +1,4 @@
-import {BrowserRouter,Route,Switch} from 'react-router-dom'
+import {BrowserRouter,Route,Switch,Redirect} from 'react-router-dom'
 import './App.css';
 import Navbar from './components/navbar/Navbar'
 import Homepage from './pages/Homepage'
@@ -20,7 +20,8 @@ class App extends Component {
       <BrowserRouter>
         <Navbar/>
         <Switch>
-          <Route exact path ='/' component={Homepage}/>
+          <Redirect from="/" to="/LoopTv" />
+          <Route exact path ='/LoopTv' component={Homepage}/>
           <Route path = '/details/:id' component={Details}/>
         </Switch>
         {/* <Footer/> */}
