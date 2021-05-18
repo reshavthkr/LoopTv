@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/LoopTv/static/css/main.e8575341.chunk.css",
-    "main.js": "/LoopTv/static/js/main.be3f86b3.chunk.js",
-    "main.js.map": "/LoopTv/static/js/main.be3f86b3.chunk.js.map",
+    "main.js": "/LoopTv/static/js/main.a4cf4f1e.chunk.js",
+    "main.js.map": "/LoopTv/static/js/main.a4cf4f1e.chunk.js.map",
     "runtime-main.js": "/LoopTv/static/js/runtime-main.635d179d.js",
     "runtime-main.js.map": "/LoopTv/static/js/runtime-main.635d179d.js.map",
-    "static/js/2.22292ec7.chunk.js": "/LoopTv/static/js/2.22292ec7.chunk.js",
-    "static/js/2.22292ec7.chunk.js.map": "/LoopTv/static/js/2.22292ec7.chunk.js.map",
+    "static/js/2.5351ddd0.chunk.js": "/LoopTv/static/js/2.5351ddd0.chunk.js",
+    "static/js/2.5351ddd0.chunk.js.map": "/LoopTv/static/js/2.5351ddd0.chunk.js.map",
     "static/js/3.6bf87afa.chunk.js": "/LoopTv/static/js/3.6bf87afa.chunk.js",
     "static/js/3.6bf87afa.chunk.js.map": "/LoopTv/static/js/3.6bf87afa.chunk.js.map",
     "index.html": "/LoopTv/index.html",
     "static/css/main.e8575341.chunk.css.map": "/LoopTv/static/css/main.e8575341.chunk.css.map",
-    "static/js/2.22292ec7.chunk.js.LICENSE.txt": "/LoopTv/static/js/2.22292ec7.chunk.js.LICENSE.txt",
+    "static/js/2.5351ddd0.chunk.js.LICENSE.txt": "/LoopTv/static/js/2.5351ddd0.chunk.js.LICENSE.txt",
     "static/media/Hero.css": "/LoopTv/static/media/heroo.9b455994.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.635d179d.js",
-    "static/js/2.22292ec7.chunk.js",
+    "static/js/2.5351ddd0.chunk.js",
     "static/css/main.e8575341.chunk.css",
-    "static/js/main.be3f86b3.chunk.js"
+    "static/js/main.a4cf4f1e.chunk.js"
   ]
 }
