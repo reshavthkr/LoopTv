@@ -15,7 +15,7 @@ class Homepage extends Component {
     }
     onSearch =() =>{
         console.log(this.state.searchInput);
-        fetch(`http://api.tvmaze.com/search/shows?q=${this.state.searchInput}`)
+        fetch(`https://api.tvmaze.com/search/shows?q=${this.state.searchInput}`)
         .then(res =>res.json())
         .then(json =>{
             // console.log(json[0]);

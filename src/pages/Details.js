@@ -6,7 +6,7 @@ const Details = (match) => {
     const id = match.match.params.id;
     // console.log( id);
 
-    fetch(`http://api.tvmaze.com/shows/${id}?embed[]=seasons&embed[]=cast`)
+    fetch(`https://api.tvmaze.com/shows/${id}?embed[]=seasons&embed[]=cast`)
     .then(res =>res.json())
     .then(json =>{
         console.log(json)
