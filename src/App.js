@@ -20,9 +20,10 @@ class App extends Component {
       <BrowserRouter>
         <Navbar/>
         <Switch>
-          <Redirect from="/" to="/LoopTv" />
+          
           <Route exact path ='/LoopTv' component={Homepage}/>
           <Route path = '/details/:id' component={Details}/>
+          <Redirect exact from="/" to="/LoopTv" />
         </Switch>
         {/* <Footer/> */}
       </BrowserRouter>

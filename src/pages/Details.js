@@ -9,7 +9,7 @@ const Details = (match) => {
     fetch(`https://api.tvmaze.com/shows/${id}?embed[]=seasons&embed[]=cast`)
     .then(res =>res.json())
     .then(json =>{
-        console.log(json)
+        // console.log(json)
         setdata(json)
     })
     const removeTags = (text) => {
@@ -21,7 +21,6 @@ const Details = (match) => {
         return text.replace(/(<([^>]+)>)/gi, "");
     };
     
-    // fetch('')
     return (
         <div className="detail_container">
             <div className='details_div'>
