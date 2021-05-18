@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/LoopTv/static/css/main.e8575341.chunk.css",
-    "main.js": "/LoopTv/static/js/main.a4cf4f1e.chunk.js",
-    "main.js.map": "/LoopTv/static/js/main.a4cf4f1e.chunk.js.map",
+    "main.js": "/LoopTv/static/js/main.a6b88a11.chunk.js",
+    "main.js.map": "/LoopTv/static/js/main.a6b88a11.chunk.js.map",
     "runtime-main.js": "/LoopTv/static/js/runtime-main.635d179d.js",
     "runtime-main.js.map": "/LoopTv/static/js/runtime-main.635d179d.js.map",
     "static/js/2.5351ddd0.chunk.js": "/LoopTv/static/js/2.5351ddd0.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.635d179d.js",
     "static/js/2.5351ddd0.chunk.js",
     "static/css/main.e8575341.chunk.css",
-    "static/js/main.a4cf4f1e.chunk.js"
+    "static/js/main.a6b88a11.chunk.js"
   ]
 }
